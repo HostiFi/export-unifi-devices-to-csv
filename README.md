@@ -9,6 +9,8 @@ cd /root
 
 wget https://raw.githubusercontent.com/HostiFi/Export-UniFi-Devices-to-CSV/main/unifi_devices_to_csv.py
 
+pip3 install pymongo
+
 python3 unifi_devices_to_csv.py
 
 
